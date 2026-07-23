@@ -1,0 +1,91 @@
+@font-face {
+    font-family: "Lumiare";
+    src: url("/Assets/Font/Lumiare.otf") format("opentype");
+}
+
+/* @font-face {
+    font-family: "Makcasa";
+    src: url("/Assets/Font/Makcasa-Regular.otf") format("opentype");
+} */
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background: #faf8f4;
+  overflow: hidden;
+}
+
+#canvas-holder {
+  position: fixed;
+  top: 0;
+  left: 0;
+  color: #faf8f4;
+  width: 100vw;
+  height: 100vh;
+}
+
+
+#canvas-holder canvas {
+  display: block;
+}
+
+
+#info-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  z-index: 6;
+}
+
+.info-block {
+  position: absolute;
+  max-width: 34vw;
+}
+
+.info-line {
+  margin: 0;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f5efeb;
+  text-shadow: 0.5px 0.5px 2px rgba(0, 0, 0, 1);
+}
+
+/* Dòng nhấn (tên nhóm / môn học) đậm hơn một chút */
+.corner-tl .info-line,
+.corner-tr .info-line {
+  font-weight: 600;
+}
+
+.corner-tl {
+  top: 20px;
+  left: 20px;
+  text-align: left;
+}
+
+.corner-tr {
+  top: 20px;
+  right: 20px;
+  text-align: right;
+}
+
+.corner-bl {
+  bottom: 20px;
+  left: 20px;
+  text-align: left;
+}
+
+.corner-br {
+  bottom: 20px;
+  right: 20px;
+  text-align: right;
+}
