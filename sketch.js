@@ -26,45 +26,45 @@ const textColorPairs = [
 ];
 
 const tapeTextureFiles = [
-  '/Assets/Texture/TapeTexture.png',
+  '/A1_Spec1/Assets/Texture/TapeTexture.png',
 ];
 const tapeTextureOpacityMin = 0.15;
 const tapeTextureOpacityMax = 0.3;
 let tapeTextureImages = [];
 
 const textureFiles = [
-  '/Assets/Texture/Texture1.png',
-  '/Assets/Texture/Texture2.png',
-  '/Assets/Texture/Texture3.png',
-  '/Assets/Texture/Texture4.png',
+  '/A1_Spec1/Assets/Texture/Texture1.png',
+  '/A1_Spec1/Assets/Texture/Texture2.png',
+  '/A1_Spec1/Assets/Texture/Texture3.png',
+  '/A1_Spec1/Assets/Texture/Texture4.png',
 ];
 const textureOpacityMin = 0.15;
 const textureOpacityMax = 0.25;
 let textureImages = [];
 
-const backgroundImageFile = '/Assets/Background2.jpg';
+const backgroundImageFile = '/A1_Spec1/Assets/Background2.jpg';
 let backgroundImage = null;
 
 const assetPool = [
-  { src: '/Assets/16.png', needsPaper: false, paperColor: null, sizeF: null },
-  { src: '/Assets/16.1.png', needsPaper: false, paperColor: null, sizeF: null },
-  { src: '/Assets/19.png', needsPaper: false, paperColor: null, sizeF: null },
-  { src: '/Assets/19.1.png', needsPaper: false, paperColor: null, sizeF: null },
-  { src: '/Assets/36.png', needsPaper: false, paperColor: null, sizeF: 0.15 },
-  { src: '/Assets/36.1.png', needsPaper: false, paperColor: null, sizeF: 0.15 },
-  { src: '/Assets/37.png', needsPaper: false, paperColor: null, sizeF: 0.15 },
-  { src: '/Assets/37.1.png', needsPaper: false, paperColor: null, sizeF: 0.15 },
-  { src: '/Assets/38.png', needsPaper: false, paperColor: null, sizeF: 0.15 },
-  { src: '/Assets/38.1.png', needsPaper: false, paperColor: null, sizeF: 0.15 },
-  { src: '/Assets/39.png', needsPaper: false, paperColor: null, sizeF: 0.15 },
-  { src: '/Assets/39.1.png', needsPaper: false, paperColor: null, sizeF: 0.15 },
-  { src: '/Assets/40.png', needsPaper: false, paperColor: null, sizeF: 0.15 },
-  { src: '/Assets/41.png', needsPaper: false, paperColor: null, sizeF: 0.15 },
-  { src: '/Assets/41.1.png', needsPaper: false, paperColor: null, sizeF: 0.15 },
-  { src: '/Assets/42.png', needsPaper: false, paperColor: null, sizeF: 0.15 },
-  { src: '/Assets/42.1.png', needsPaper: false, paperColor: null, sizeF: 0.15 },
-  { src: '/Assets/43.png', needsPaper: false, paperColor: null, sizeF: 0.15 },
-  { src: '/Assets/43.1.png', needsPaper: false, paperColor: null, sizeF: 0.15 },
+  { src: '/A1_Spec1/Assets/16.png', needsPaper: false, paperColor: null, sizeF: null },
+  { src: '/A1_Spec1/Assets/16.1.png', needsPaper: false, paperColor: null, sizeF: null },
+  { src: '/A1_Spec1/Assets/19.png', needsPaper: false, paperColor: null, sizeF: null },
+  { src: '/A1_Spec1/Assets/19.1.png', needsPaper: false, paperColor: null, sizeF: null },
+  { src: '/A1_Spec1/Assets/36.png', needsPaper: false, paperColor: null, sizeF: 0.15 },
+  { src: '/A1_Spec1/Assets/36.1.png', needsPaper: false, paperColor: null, sizeF: 0.15 },
+  { src: '/A1_Spec1/Assets/37.png', needsPaper: false, paperColor: null, sizeF: 0.15 },
+  { src: '/A1_Spec1/Assets/37.1.png', needsPaper: false, paperColor: null, sizeF: 0.15 },
+  { src: '/A1_Spec1/Assets/38.png', needsPaper: false, paperColor: null, sizeF: 0.15 },
+  { src: '/A1_Spec1/Assets/38.1.png', needsPaper: false, paperColor: null, sizeF: 0.15 },
+  { src: '/A1_Spec1/Assets/39.png', needsPaper: false, paperColor: null, sizeF: 0.15 },
+  { src: '/A1_Spec1/Assets/39.1.png', needsPaper: false, paperColor: null, sizeF: 0.15 },
+  { src: '/A1_Spec1/Assets/40.png', needsPaper: false, paperColor: null, sizeF: 0.15 },
+  { src: '/A1_Spec1/Assets/41.png', needsPaper: false, paperColor: null, sizeF: 0.15 },
+  { src: '/A1_Spec1/Assets/41.1.png', needsPaper: false, paperColor: null, sizeF: 0.15 },
+  { src: '/A1_Spec1/Assets/42.png', needsPaper: false, paperColor: null, sizeF: 0.15 },
+  { src: '/A1_Spec1/Assets/42.1.png', needsPaper: false, paperColor: null, sizeF: 0.15 },
+  { src: '/A1_Spec1/Assets/43.png', needsPaper: false, paperColor: null, sizeF: 0.15 },
+  { src: '/A1_Spec1/Assets/43.1.png', needsPaper: false, paperColor: null, sizeF: 0.15 },
 ];
 
 function buildAssetGroups(pool) {
